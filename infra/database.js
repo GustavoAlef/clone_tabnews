@@ -29,7 +29,9 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+const database = {
   query: query, //formas diferentes de exportar os metodos
   getNewClient,
 };
+
+export default database;
